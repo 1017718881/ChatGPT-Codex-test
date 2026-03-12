@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>迷你贪吃蛇</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>🐍 迷你贪吃蛇</h1>
+      <p class="hint">方向键控制移动，空格键暂停/继续，R 键重新开始。</p>
+      <div class="hud">
+        <span>分数：<strong id="score">0</strong></span>
+        <span>最高分：<strong id="best">0</strong></span>
+      </div>
+      <canvas id="board" width="420" height="420" aria-label="贪吃蛇游戏画布"></canvas>
+      <p id="status" class="status">按任意方向键开始</p>
+    </main>
+    <script src="snake.js"></script>
+  </body>
+</html>
